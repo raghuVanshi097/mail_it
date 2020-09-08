@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.hamburger{
+    display: none;
+}
+
+.container{
+    
+    top:0;
+    left:20%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 70% auto;
+    background-color: transparent;
+    height: 100px;
+    width:60%;
+    margin: auto;
+    z-index: 2;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.abc{
+    color: white;
+    text-decoration: none;
+}
+
+
+.title{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:Brush Script MT;
+    align-self: center;
+}
+
+.buttons{
+    align-self: center;
+    }
+
+.links{
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+
+li:nth-child(4){
+    font-size: 20px;
+}
+li:nth-child(5){
+    
+    font-size: 20px;
+}
+
+
+.nav_white {
+    z-index: 3;
+    box-shadow: 0 8px 20px -12px darkturquoise ;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: darkturquoise;
+    height: 60px;
+    width:100%;
+    left: 0;
+  }
+
+  @media (max-width:1300px){
+      
+    .container{
+        padding-right:10% ;
+        padding-left: 10%;
+        margin:auto;
+        width:100%;
+        left: 0;
+    }
+    .nav_white {
+        padding-right:10% ;
+        padding-left: 10%;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        padding-left: 0;
+        margin:0;
+        width:100%;
+        left: 0%;
+        padding-right: 4%;
+    }
+    .nav_white {
+        
+        padding-left: 0;
+        padding-right: 4%;
+}
+}
+
+@media (max-width:900px){
+    .links{
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 7px;
+        align-items: center;
+        width: 40%;
+        flex-flow: column-reverse;
+        background-color: white;
+        position: fixed;
+        top: 60px;
+        right: 0;
+        height: 80vh;
+        z-index: 10;
+        clip-path:circle(50px at 90% -20%) ;
+        -webkit-cip-path: circle(50px at 90% -20%);
+        transition-timing-function: ease-in;
+        transition: all 0.7s;
+        box-shadow: 0 2px 2px 0 rgb(211,211,211), 0 3px 15px 0 rgb(211,211,211);
+    }
+
+    .links.open{
+        clip-path:circle(1000px at 90% -20%) ;
+        -webkit-cip-path: circle(1000px at 90% -20%);
+    }
+
+    .hamburger{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: end;
+        z-index: 1;
+    }
+
+    .Lines{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 4px;
+    }
+
+    .abc{
+        color: black;
+    }
+
+
+}

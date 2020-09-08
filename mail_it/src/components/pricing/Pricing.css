@@ -1,0 +1,118 @@
+.item1{
+    border: 3px solid white;
+    box-shadow: 0 4px 8px 0 rgb(211,211,211), 0 6px 20px 0 rgb(211,211,211);
+    color:black;
+    background-color: white;
+    height: 600px;
+    font-family: Gill Sans MT;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+
+.itemlast{
+    font-family: Gill Sans MT;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px 0 rgb(255,215,0), 0 6px 20px 0 rgb(255,215,0);
+    border-radius: 10px;
+    color:black;
+    background-color: rgb(255,215,0);
+    height: 600px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.itemrest{
+    font-family: Gill Sans MT;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px 0 rgb(211,211,211), 0 6px 20px 0 rgb(211,211,211);
+    border-radius: 10px;
+    color:black;
+    background-color: rgb(211,211,211);
+    height: 700px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.item1 b{
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgb(211,211,211), 0 6px 20px 0 rgb(211,211,211);
+}
+
+
+.itemrest b{
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 darkgray, 0 6px 20px 0 darkgray;
+}
+
+.itemlast b{
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgb(255,165,0), 0 6px 20px 0 rgb(255,165,0);
+}
+
+.rupee{
+    justify-content: center;
+    display: flex;
+    padding-top:50px;
+    font-size: 30px;
+}
+
+.rupee h2{
+    font-family:Corbel Light;
+    font-size: 30px;
+    padding-left: 20px;
+    align-self: flex-end;
+    padding-bottom: 8px;
+}
+
+.abt{
+    font-family: Segoe UI Emoji;
+    padding-top: 50px;
+    line-height: 70px;
+}
+
+.abt1{
+    font-family: Segoe UI Emoji;
+    padding-top: 50px;
+    line-height: 95px;
+
+}
+
+
+@media (max-width:900px){
+    .item1{
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px;
+        height:670px;
+    }
+
+    .itemlast{
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px;
+        height:670px;
+    }
+    .itemrest{
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .abt{
+        line-height: 45px;
+    }
+
+    .abt1{
+        line-height:45px;
+    }
+
+}
+

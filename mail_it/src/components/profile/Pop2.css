@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap2{
+    background: url('bg1.png') no-repeat center;
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fo2{
+    margin-top:60px;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    max-height:500px;
+    padding: 45px 40px 40px;
+    background: rgba(0, 0, 0, 0.9) ;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5) ;
+    overflow: scroll;
+    
+}
+
+
+/*.fo2::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background: rgba(225,225,225,0.08);
+    transform: skewX(-77deg);
+    transform-origin: bottom left;
+    border-radius: 10px;
+    pointer-events: none;
+}*/
+
+.fo2::-webkit-scrollbar {
+    width: 12px;
+                   /* width of the entire scrollbar */
+  }
+.fo2::-webkit-scrollbar-track {
+    background: rgba(225,225,225,0.08);        /* color of the tracking area */
+  }
+.fo2::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.9);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid rgba(225,225,225,0.08);   /* creates padding around scroll thumb */
+  }
+.fir{
+    display: flex;
+}
+.fo2 h2{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color:#ff652f;
+    }
+    
+
+.fo2 .input-group{
+    align-items: center;
+    padding:7px;
+    display: flex;
+    justify-content: space-between;
+}    
+
+.resci{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.titl{
+    padding-right: 40px;
+}
+
+.submit2{
+    display: block ;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    background:#ff652f ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.box{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.fo2 .load{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.fo2 .load1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:900px){
+    .fo2{
+        padding-left: 0px;
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .resci{
+        padding-top: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .fo2 .input-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fir{
+    
+        display: flex;
+        flex-direction: column;
+
+    }
+    .box{
+        padding-left: 0px;
+    }
+    
+    .titl{
+        font-size: 20px;
+    }
+    .load1{
+        padding-top: 10px;
+        justify-content: center;
+    }
+}

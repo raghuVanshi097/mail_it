@@ -1,0 +1,57 @@
+.kep-login-facebook{
+    font-size: 0px !important;
+    width: 40px !important;
+    border-radius: 50% !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.kep-login-facebook i{
+    align-self: center !important;
+    font-size: 20px !important;
+    margin-right: 20px !important;
+}
+
+.buttongoogle{
+    width: 40px !important;
+    border-radius: 50% !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.gitbutton{
+    
+    margin-top: 6px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius:50% !important ;
+}
+
+
+.gitbutton span{
+    display: none !important;
+}
+
+.gitbutton div {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    width: 40px !important;
+    background-color: transparent !important;
+}
+
+.buttongoogle i{
+    display: none;
+}
+
+.buttongoogle span{
+    display: none;
+}
+
+.buttongoogle div{
+    size: 40px !important;
+    width: 30px !important;
+    background-color: transparent !important;;
+}
